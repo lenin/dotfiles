@@ -9,7 +9,9 @@
   br = branch
   co = checkout
   df = diff
-  dfs = diff --staged
   lg = log -p
 [core]
   excludesfile = ~/.gitignore
+  quotepath = off
+[remote "origin"]
+  push = HEAD
